@@ -115,6 +115,11 @@ make clean
 - The `print_dict()` function ensures that keys are printed in lexicographical order using trie traversal.
 - The trie data structure limits keys to lowercase English letters (`a-z`).
 
+## Contributors
+This project was developed by a team of three:
+- JS Vishnu Teja
+- Kunjan Manoj Kumar S
+
 ## Contributions
 Contributions to improve or extend the functionality of this project are welcome! Fork the repository, create a new branch, and submit a pull request.
 
