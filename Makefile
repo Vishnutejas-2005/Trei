@@ -1,13 +1,13 @@
 CC=gcc
 
-all: hw2.o dict.o
-	$(CC) -o hw2 hw2.o dict.o
+all: main.o dict.o
+	$(CC) -o main main.o dict.o
 
-hw2.o: hw2.c dict.h
-	$(CC) -c hw2.c
+main.o: main.c dict.h
+	$(CC) -c main.c
 
 dict.o: dict.c dict.h
 	$(CC) -c -O3 dict.c
  
 clean:
-	rm hw2 hw2.o dict.o
+	rm main main.o dict.o
