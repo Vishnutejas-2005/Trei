@@ -116,7 +116,7 @@ make clean
 - The trie data structure limits keys to lowercase English letters (`a-z`).
 
 ## Contributors
-This project was developed by a team of three:
+This project was developed by a team of two:
 - JS Vishnu Teja
 - Kunjan Manoj Kumar S
 
